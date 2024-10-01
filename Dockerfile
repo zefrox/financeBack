@@ -8,19 +8,19 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clona el repositorio desde GitHub (reemplaza con tu propio repositorio)
-RUN git clone https://github.com/usuario/proyecto-nextjs.git /app
+RUN git clone https://github.com/usuario/proyecto-nestjs.git /app
 
 # Instala las dependencias del proyecto
 RUN npm install
 
-# Compila la aplicación Next.js para producción
+# Compila el código TypeScript a JavaScript
 RUN npm run build
 
-# Define las variables de entorno
+# Define variables de entorno
 ENV NODE_ENV=production
 
-# Expone el puerto por defecto de Next.js
+# Expone el puerto en el que corre la aplicación NestJS
 EXPOSE 3000
 
 # Comando para iniciar la aplicación en modo producción
-CMD ["npm", "start"]
+CMD ["npm", "run", "start:prod"]

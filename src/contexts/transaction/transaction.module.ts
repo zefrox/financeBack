@@ -5,7 +5,7 @@ import { DeleteTransactionUsecase } from './applications/deleteTransaction.useca
 import { GetTransactionsUsecase } from './applications/getTransactions.usecase';
 import { GetTransactionsByDateUsecase } from './applications/getTransactionsByDate.usecase';
 import { UpdateTransactionUsecase } from './applications/updateTransaction.usecase';
-import { TransactionRepository } from './domain/Transaction.repository';
+import { TransactionRepository } from './domain/transaction.repository';
 import { TransactionSchema } from './domain/transaction.schema';
 import { CreateTransactionController } from './infraestructure/http-api/v1/createTransaction.controller';
 import { DeleteTransactionController } from './infraestructure/http-api/v1/deleteTransaction.controller';

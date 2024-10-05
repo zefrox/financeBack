@@ -1,6 +1,6 @@
 import { Controller, Get, Res } from '@nestjs/common';
 import { Response } from 'express';
-import { GetTransactionsUsecase } from 'src/contexts/transaction/applications/GetTransactions.usecase';
+import { GetTransactionsUsecase } from 'src/contexts/transaction/applications/getTransactions.usecase';
 import { V1_TRANSACTION } from 'src/contexts/shared/path.constant';
 
 @Controller(V1_TRANSACTION)

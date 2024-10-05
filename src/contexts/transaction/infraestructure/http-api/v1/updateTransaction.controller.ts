@@ -1,6 +1,6 @@
 import { Controller, Patch, Body, Param, Res } from '@nestjs/common';
 import { Response } from 'express';
-import { UpdateTransactionUsecase } from 'src/contexts/transaction/applications/UpdateTransaction.usecase';
+import { UpdateTransactionUsecase } from 'src/contexts/transaction/applications/updateTransaction.usecase';
 import { UpdateTransactionValidation } from 'src/contexts/transaction/domain/transaction.validation';
 import { V1_TRANSACTION } from 'src/contexts/shared/path.constant';
 

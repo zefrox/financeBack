@@ -1,7 +1,7 @@
 import { Model } from 'mongoose';
 import { Injectable } from '@nestjs/common';
 import { Criteria } from 'src/common/helpers/criteria';
-import { TransactionRepository } from '../../domain/Transaction.repository';
+import { TransactionRepository } from '../../domain/transaction.repository';
 import { ITransaction } from '../../domain/transaction.interface';
 import {
   CreateTransactionValidation,

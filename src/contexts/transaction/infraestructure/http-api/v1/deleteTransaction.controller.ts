@@ -1,6 +1,6 @@
 import { Controller, Delete, Param, Res } from '@nestjs/common';
 import { Response } from 'express';
-import { DeleteTransactionUsecase } from 'src/contexts/transaction/applications/DeleteTransaction.usecase';
+import { DeleteTransactionUsecase } from 'src/contexts/transaction/applications/deleteTransaction.usecase';
 import { V1_TRANSACTION } from 'src/contexts/shared/path.constant';
 
 @Controller(V1_TRANSACTION)

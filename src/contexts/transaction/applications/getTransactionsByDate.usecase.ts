@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { Criteria, QueryType } from 'src/common/helpers/criteria';
-import { TransactionRepository } from '../domain/Transaction.repository';
+import { TransactionRepository } from '../domain/transaction.repository';
 import { TransactionType } from '../domain/transaction.interface';
 
 interface GetTransactionsByDateResponse {

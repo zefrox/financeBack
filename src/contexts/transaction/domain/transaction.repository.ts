@@ -1,5 +1,5 @@
 import { Criteria } from 'src/common/helpers/criteria';
-import { type ITransaction } from './transaction.interface';
+import { ITransaction } from './transaction.interface';
 import {
   CreateTransactionValidation,
   UpdateTransactionValidation,

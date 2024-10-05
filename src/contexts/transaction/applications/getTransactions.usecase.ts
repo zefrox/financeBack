@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { Criteria, QueryType } from 'src/common/helpers/criteria';
 import { ITransaction } from '../domain/transaction.interface';
-import { TransactionRepository } from '../domain/Transaction.repository';
+import { TransactionRepository } from '../domain/transaction.repository';
 
 @Injectable()
 export class GetTransactionsUsecase {

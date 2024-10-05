@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { TransactionRepository } from '../domain/Transaction.repository';
+import { TransactionRepository } from '../domain/transaction.repository';
 
 @Injectable()
 export class DeleteTransactionUsecase {

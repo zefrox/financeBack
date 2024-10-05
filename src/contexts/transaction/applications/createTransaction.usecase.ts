@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
-import { ITransaction } from '../domain/transaction.interface';
-import { TransactionRepository } from '../domain/Transaction.repository';
+import { type ITransaction } from '../domain/transaction.interface';
 import { CreateTransactionValidation } from '../domain/transaction.validation';
+import { TransactionRepository } from '../domain/Transaction.repository';
 
 @Injectable()
 export class CreateTransactionUsecase {

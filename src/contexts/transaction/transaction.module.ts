@@ -11,8 +11,8 @@ import { GetTransactionsController } from './infraestructure/http-api/v1/GetTran
 import { UpdateTransactionController } from './infraestructure/http-api/v1/UpdateTransaction.controller';
 import { DeleteTransactionController } from './infraestructure/http-api/v1/DeleteTransaction.controller';
 import { TransactionSchema } from './domain/transaction.schema';
-import { FinancialSummaryController } from './infraestructure/http-api/v1/financialSummary.controller';
-import { GetTransactionsByDateUsecase } from './applications/getTransactionsByDate.usecase';
+import { FinancialSummaryController } from './infraestructure/http-api/v1/FinancialSummary.controller';
+import { GetTransactionsByDateUsecase } from './applications/GetTransactionsByDate.usecase';
 
 @Module({
   imports: [
